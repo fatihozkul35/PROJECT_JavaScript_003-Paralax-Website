@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/***** PARALAX1 */
+.paralax1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paralax1-title {
+  border-top: 0.5rem solid blue;
+  border-left: 0.5rem solid blue;
+  border-right: 0.5rem solid red;
+  border-bottom: 0.5rem solid red;
+  padding: 1.2rem;
+  border-radius: 50px 0;
+}
+.paralax1-title p {
+  font-family: sans-serif;
+  font-size: 48px;
+  letter-spacing: 8px;
+  border: 1px solid #4d4d4d;
+  background-color: #4d4d4d;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 50px 0 50px 0;
+}
+
+/***** PARALAX2 */
+
+.paralax2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg2.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 150px;
+}
+
+.paralax2-row1 {
+  height: 30vh;
+  text-align: center;
+  line-height: 1.5rem;
+  background: white;
+}
+.paralax2-row1 h1 {
+  padding: 2rem;
+}
+.paralax2-row1 p {
+  margin: 0 2rem 2rem;
+}
+.paralax2-row2 img {
+  width: auto;
+  height: 8vh;
+}
+
+/***** PARALAX3 */
+
+.paralax3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg3.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  row-gap: 180px;
+}
+.paralax3-row1 {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.paralax3-row2 {
+  border-top: 0.5rem solid blue;
+  border-left: 0.5rem solid blue;
+  border-right: 0.5rem solid red;
+  border-bottom: 0.5rem solid red;
+  padding: 1.2rem;
+  border-radius: 50px 0;
+  margin: 0 auto;
+}
+.paralax3-row2 p {
+  font-family: sans-serif;
+  font-size: 48px;
+  letter-spacing: 8px;
+  border: 1px solid #4d4d4d;
+  background-color: #4d4d4d;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 50px 0 50px 0;
+}
+
+/***** PARALAX4 */
+.paralax4 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg4.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  row-gap: 180px;
+}
+.paralax4-row1 {
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+.paralax4-row2 {
+  border-top: 0.5rem solid blue;
+  border-left: 0.5rem solid blue;
+  border-right: 0.5rem solid red;
+  border-bottom: 0.5rem solid red;
+  padding: 1.2rem;
+  border-radius: 50px 0;
+  margin: 0 auto;
+}
+.paralax4-row2 p {
+  font-family: sans-serif;
+  font-size: 48px;
+  letter-spacing: 8px;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 50px 0 50px 0;
+}
+
+/***** PARALAX5 */
+.paralax5 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg1.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  row-gap: 180px;
+}
+.paralax5-row1 {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.paralax5-row2 {
+  border-top: 0.5rem solid blue;
+  border-left: 0.5rem solid blue;
+  border-right: 0.5rem solid red;
+  border-bottom: 0.5rem solid red;
+  padding: 1.2rem;
+  border-radius: 50px 0;
+  margin: 0 auto;
+}
+.paralax5-row2 p {
+  font-family: sans-serif;
+  font-size: 48px;
+  letter-spacing: 8px;
+  border: 1px solid #4d4d4d;
+  background-color: #4d4d4d;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 50px 0 50px 0;
+}
